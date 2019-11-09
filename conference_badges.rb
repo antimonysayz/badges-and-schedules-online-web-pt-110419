@@ -15,6 +15,6 @@ def assign_rooms(array)
   rooms = []
   assigned = []
   array.each_with_index{|i| rooms << i}
-  array.each{|name| assigned << "Hello, #{name}! You'll be assigned to room #{rooms}!"}
+  array.each{|name| assigned << "Hello, #{name}! You'll be assigned to room #{i}!"}
   assigned
 end
