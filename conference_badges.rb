@@ -14,7 +14,9 @@ end
 def assign_rooms(array)
   rooms =[]
   i = l
-  array.each{|name| rooms << "Hello  #{name}! You'll be assigned to room #{i}!"}
-  i += 1
+  array.each do |name|
+    rooms << "Hello #{name}! You'll be assigned to room #{i}!"
+    i += 1
+  end
   rooms
 end
