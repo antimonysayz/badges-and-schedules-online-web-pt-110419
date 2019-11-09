@@ -26,7 +26,7 @@ def printer(array)
     puts name
 end
   assign_rooms(array).each do |rooms|
-    puts room
+    puts rooms
   end
 end
 
